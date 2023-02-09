@@ -18,7 +18,7 @@ import lombok.RequiredArgsConstructor;
 public class KafkaAdminConfig {
 	
 	@Autowired
-	public final KafkaProperties properties;
+	private final KafkaProperties properties;
 	
 	@Bean
 	public KafkaAdmin kafkaAdmin() {
