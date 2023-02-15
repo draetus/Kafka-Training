@@ -4,7 +4,6 @@ import static org.apache.kafka.clients.admin.AdminClientConfig.BOOTSTRAP_SERVERS
 
 import java.util.HashMap;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.kafka.KafkaProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -17,7 +16,6 @@ import lombok.RequiredArgsConstructor;
 @Configuration
 public class KafkaAdminConfig {
 	
-	@Autowired
 	private final KafkaProperties properties;
 	
 	@Bean
