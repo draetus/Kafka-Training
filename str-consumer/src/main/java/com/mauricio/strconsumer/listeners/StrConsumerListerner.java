@@ -5,6 +5,7 @@ import org.springframework.stereotype.Component;
 
 import com.mauricio.strconsumer.custom.StrConsumerCustomListener;
 
+import lombok.SneakyThrows;
 import lombok.extern.log4j.Log4j2;
 
 @Log4j2
@@ -12,9 +13,11 @@ import lombok.extern.log4j.Log4j2;
 public class StrConsumerListerner {
 	
 
+	@SneakyThrows
 	@StrConsumerCustomListener(groupId = "group-1")
 	public void listener(String message) {
 		log.info("CREATE ::: Receive message {}", message);
+		throw new IllegalArgumentException();
 	}
 	
 	@StrConsumerCustomListener(groupId = "group-1")
