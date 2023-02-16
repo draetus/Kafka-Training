@@ -1,4 +1,4 @@
-package com.mauricio.strproducer.model;
+package com.mauricio.paymentproducer.model;
 
 import java.io.Serializable;
 

@@ -1,12 +1,12 @@
-package com.mauricio.strproducer.service.impl;
+package com.mauricio.paymentproducer.service.impl;
 
 import java.io.Serializable;
 
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
 
-import com.mauricio.strproducer.model.Payment;
-import com.mauricio.strproducer.service.PaymentService;
+import com.mauricio.paymentproducer.model.Payment;
+import com.mauricio.paymentproducer.service.PaymentService;
 
 import lombok.RequiredArgsConstructor;
 import lombok.SneakyThrows;

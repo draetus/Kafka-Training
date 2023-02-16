@@ -1,4 +1,4 @@
-package com.mauricio.strproducer.config;
+package com.mauricio.paymentproducer.config;
 
 import static org.apache.kafka.clients.admin.AdminClientConfig.BOOTSTRAP_SERVERS_CONFIG;
 

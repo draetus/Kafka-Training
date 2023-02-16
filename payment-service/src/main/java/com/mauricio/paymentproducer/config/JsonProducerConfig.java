@@ -1,4 +1,4 @@
-package com.mauricio.strproducer.config;
+package com.mauricio.paymentproducer.config;
 
 import static org.apache.kafka.clients.producer.ProducerConfig.BOOTSTRAP_SERVERS_CONFIG;
 import static org.apache.kafka.clients.producer.ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG;
